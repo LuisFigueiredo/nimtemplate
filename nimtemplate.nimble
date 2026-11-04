@@ -7,4 +7,4 @@ binDir      = "bin"
 bin         = @["exec"]
 
 # Dependencies
-requires "nim >= 2.2.8"
+requires "nim >= 2.4.0"
