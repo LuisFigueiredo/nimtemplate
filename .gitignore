@@ -13,8 +13,16 @@
 # Normal ignores.
 *.exe
 nimcache
+nimble.paths
+nimble.develop
+nimbledeps
 *.pdb
 *.ilk
 *.out
+
+# Files without an extension that projects commonly add.
+!Makefile
+!justfile
+!Dockerfile
 
 # Project specific ignores.
